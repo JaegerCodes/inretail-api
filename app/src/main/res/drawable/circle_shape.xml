@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <padding android:left="3.5px"
+                android:top="3.5px"
+                android:right="3.5px"
+                android:bottom="3.5px"/>
+            <size android:height="5dp"
+                    android:width="5dp"/>
+            <solid android:color="#1C3B4E"/>
+        </shape>
+
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <size android:height="1dp"
+                android:width="1dp"/>
+            <solid android:color="@color/white_50"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_avatar"
+
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp"/>
+    <!--item>
+        <shape android:shape="oval">
+            <solid android:color="#1C3B4E"/>
+        </shape>
+    </item>
+    <item
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:top="1dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/white_50"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_avatar"
+        android:width="5dp"
+        android:height="5dp"
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp"/-->
+</layer-list>

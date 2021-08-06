@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Top level DayNight theme to be used in AndroidManifest.xml-->
+    <style name="Theme.MyApp" parent="Base.Theme.MyApp">
+        <!--Material color attributes (dark theme) -->
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryVariant">@color/orange_600</item>
+        <item name="colorSecondary">@color/orange_700</item>
+        <item name="colorSecondaryVariant">@color/white_50</item>
+        <item name="colorAccent">@color/white_50</item>
+        <item name="android:colorBackground">@color/black_900</item>
+        <item name="colorSurface">@color/black_800</item>
+        <item name="colorError">@color/red_200</item>
+        <item name="colorOnPrimary">@color/white_50</item>
+        <item name="colorOnPrimarySurface">@color/black_800</item>
+        <item name="colorOnSecondary">@color/black_900</item>
+        <item name="colorOnBackground">@color/white_50</item>
+        <item name="colorOnSurface">@color/white_50</item>
+        <item name="colorOnError">@color/black_900</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <style name="Base.Theme.MyApp.ClickableCard" parent="Widget.MaterialComponents.CardView">
+        <item name="rippleColor" tools:ignore="NewApi">@color/cyan_200</item>
+        <item name="cardBackgroundColor" tools:ignore="NewApi">@color/black_900</item>
+        <item name="android:focusable" tools:ignore="NewApi">true</item>
+        <item name="android:clickable" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="ScrollbarRecyclerView" parent="android:Widget">
+        <item name="android:scrollbarThumbVertical">@color/orange_500</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+    </style>
+
+    <style name="Base.Theme.MyApp.Switch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/cyan_500</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/black_600
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/white_50
+        </item>
+    </style>
+</resources>

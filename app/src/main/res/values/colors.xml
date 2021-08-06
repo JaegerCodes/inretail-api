@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyan_100">#D4E1F4</color>
+    <!--Color secondary-->
+    <!--Color secondary variant-->
+
+    <color name="orange_100">#99f06630</color>
+    <color name="orange_200">#ffa63b</color> <!--Color primary (dark)-->
+    <color name="orange_500">#f06630</color> <!--Color primary (light)-->
+    <color name="orange_600">#e5602c</color> <!--Color primary variant (dark)-->
+    <color name="orange_700">#d75a28</color> <!--Color primary variant (light)-->
+
+    <color name="cyan_200">#89e2eb</color> <!--Color secondary-->
+    <color name="cyan_300">#214559</color>
+    <color name="cyan_900">#1A3C4C</color>
+    <color name="cyan_500">#39c3d6</color> <!--Color secondary variant-->
+
+    <color name="red_200">#cf6679</color> <!--Color error (dark)-->
+    <color name="red_600">#b00020</color> <!--Color error (light)-->
+
+    <!--Color surface (light), color on error (light), -->
+    <!--color on surface (dark), color on surface (dark)-->
+    <color name="white_50">#ffffff</color>
+    <color name="black_600">#757575</color>
+    <color name="black_700">#42221f1f</color>
+    <color name="black_800">#121212</color> <!--Color surface (dark)-->
+    <!--Color on secondary (light), color on background (light),-->
+    <!--color on surface (light)-->
+    <color name="black_900">#082835</color>
+</resources>

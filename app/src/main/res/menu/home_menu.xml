@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item android:title="@string/menu" android:visible="false" android:id="@+id/menuFragment"/>
+        <!--item android:title="@string/menu_sincronizar" android:icon="@drawable/ic_sync" android:id="@+id/sincronizacionFragment"/>
+        <item android:title="@string/menu_despacho" android:icon="@drawable/ic_truck" android:id="@+id/despachosFragment" />
+        <item android:title="@string/menu_cambiar" android:icon="@drawable/ic_user_exchange" android:id="@+id/cambioUsuarioFragment"/>
+        <item android:title="@string/menu_configurar" android:icon="@drawable/ic_settings" android:id="@+id/configuracionFragmet"/-->
+    </group>
+
+</menu>

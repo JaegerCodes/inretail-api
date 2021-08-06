@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">inretail app</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_button_ingresar">Ingresar</string>
+    <string name="text_field_usuario">Nombre de usuario</string>
+    <string name="text_field_password">Contraseña</string>
+    <string name="menu">Menú</string>
+    <string name="login_bienvenido">Bienvenido</string>
+    <string name="ignore">ignore</string>
+    <string name="login_iniciar_sesion">Iniciar sesión</string>
+    <string name="olvido_password">¿Olvidó su contraseña?</string>
+    <string name="buscar">Buscar</string>
+    <string name="no_lo_vimos_venir">Ups! Eso no lo vimos venir, intentémoslo de nuevo</string>
+    <string name="credenciales_incorrectas">Usuario o contraseña incorrecta</string>
+    <string name="mensaje_de_error_404">Ups! Ahora no pudimos encontrar datos suficiente para esta petición</string>
+    <string name="menu_cerrar_sesion">Cerrar sesión</string>
+</resources>
